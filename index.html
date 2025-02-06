@@ -11,68 +11,77 @@
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Yasmin da Silva Pontes">
     <meta name="keywords" content="HTML, CSS, JavaScript">
+
     <link rel="icon" type="image/svg" href="./assets/img/user_02.svg" />
+
+    <!-- Link para a Folha de Estilo da Página - CSS -->
+<link rel="stylesheet" href="./assets/css/style.css">
+
     <title>Meu Perfil</title>
 </head>
 <body>
-    <!-- Cabeçalho da Página (header) -->
-		<header>
-            
-        </header>
-
+   
         <body>
-            <!-- Cabeçalho da Página (header) -->
-            <header>
-                <!-- Div Conteudo do Cabeçalho -->
-                <div id="header_content">
-                    <!-- Titulo do Cabeçalho -->
-                    <div id="Portifólio">
-                        
-                        <h1>Yasmin da Silva Pontes</h1>
-                    </div>
-    
-                    <!-- Conteudo do Menu da Página (header) -->
-                    <div id="menu">
-                        
-                        <!-- Menu da Página -->
-                        <nav>
-    
-                            <!-- Marcadores não ordenados + links -->
-                            <ul id="menu">
-                                <li>
-                                    <a href="index.html"> Home </a>
-                                </li>
-                                <li>
-                                    <a href="contato.html"> Contato </a>
-                                </li>
-                            </ul>
-    
-                        </nav>
-                        
-                    </div>
-                </div>
-            </header>
+            	<!-- Cabeçalho da Página (header) -->
+		<header>
+
+			<!-- Div Conteudo do Cabeçalho -->
+			<div id="header_content" class="flex">
+
+				<!-- Titulo do Cabeçalho -->
+				<div id="Portifólio">
+
+					<!-- Seu nome -->
+					<h1>Yasmin da Silva Pontes</h1>
+
+				</div>
+
+				<!-- Conteudo do Menu da Página (header) -->
+				<div id="menu">
+
+					<!-- Menu da Página -->
+					<nav>
+
+						<!-- Marcadores não ordenados + links -->
+						<ul id="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li>
+								<a href="contato.html">Contato</a>
+							</li>
+						</ul>
+
+					</nav>
+
+				</div>
+
+			</div>
+
+		</header>
     
            <!-- Seção Principal da Página (main) -->
 		<main>
 
-            <!-- Seção Sobre você -->
-            <section id="about">
+           
+            <section id="about" class="flex_start">
 
-				<!-- Título da Seção -->
-				<h2>Sobre mim</h2>
+				
+				<h2>Sobre mim:</h2>
 
-				<!-- Conteúdo da Seção -->
-				<div id="conteudo">
+				
+				<div id="conteudo" class="flex">
 
-					<!-- Imagem do criador do conteúdo -->
+					
 					<img
 						src="./assets/img/yasmin.png"
 						alt="Foto para o blog"
                         width="200" height="200"
+
+                        class="img_profile"
 					/>
 
-					<!-- Texto sobre o criador do conteúdo -->
+					
 					<article id="sobre_texto">
 						<p>
 							Desenvolvedora Full Stack em formação, atualmente cursando Análise e Desenvolvimento de Sistemas.
@@ -94,13 +103,13 @@
 
             </section>
             
-            <!-- Seção contendo um vídeo de sua preferência -->
-            <section id="video">
-    <!-- Título da Seção -->
+            
+            <section id="video" class="flex_start">
+    
     <h2>Meu vídeo favorito:</h2>
 
-    <!-- Vídeo da Seção -->
-    <div class="youtube">
+    
+    <div class="youtube" class="flex">
         <iframe
             width="560"
             height="315"
@@ -116,9 +125,9 @@
        </main>
 
        <!-- Rodapé da Página (footer) -->
-            <footer>
+            <footer class="flex">
             
-                <!-- Seção de Contato - Redes Sociais-->
+               
             <section id="redes_sociais">
 
                 <a href="">
@@ -138,5 +147,9 @@
         </h4>
 
             </footer>
+
+            <!-- Script JavaScript-->
+<script src="assets/js/script.js"></script>
+
         </body>
 </html>
